@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moja strona</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;padding-bottom:40px;background:url("assets/background.jpg") center/cover no-repeat fixed;font-family:"Ubuntu",sans-serif;color:#000000}
+a{text-decoration:none}
+.menu{background:#ffffff;padding:20px 30px;margin:20px 15px 0;display:flex;align-items:center;gap:20px}
+.menu img{height:40px}.menu .logo{font:25px "Bebas Neue",sans-serif;color:#e7e5e2}
+.menu a.l{font:30px "Bebas Neue",sans-serif;color:var(--c,#e7e5e2);transition:.3s}
+.menu a.l:hover{color:var(--h,#ff0000)}
+.boxy{padding:20px 30px;font-size:20px;background:#ffffff;margin:60px 145px 0}
+.boxy h2{margin:0 0 10px;font-family:"Bebas Neue",sans-serif;font-size:36px}
+.mini-boxy{display:flex;gap:15px;margin:50px 200px 0;align-items:stretch}
+.mini-box{padding:30px;background:#ffffff;flex:1;font-size:18px;position:relative}
+.mini-box h3{margin:0 0 8px;font-family:"Bebas Neue",sans-serif;font-size:26px}
+.mini-box img{width:100%;display:block;margin-bottom:12px;border-radius:4px}
+.dl{display:inline-block;margin-top:14px;padding:8px 18px;background:#063300;color:#fff;font:20px "Bebas Neue",sans-serif;border-radius:4px;transition:.3s}
+.dl:hover{opacity:.8}
+.mini-box::after{content:"";position:absolute;left:0;top:0;background:#063300;width:3px;height:0;transition:height .3s}
+.mini-box:hover::after{height:100%}
+.boxy a,.mini-box a:not(.dl),.foot a{color:inherit;text-decoration:underline}
+.foot{background:#0d0d0d;color:#aaaaaa;margin:60px 15px 0;padding:24px 30px;text-align:center;font-size:16px}
+.wm{text-align:center;font:13px "Ubuntu",sans-serif;padding:20px 0 0;opacity:.7}.wm a{color:inherit}
+@media(max-width:800px){.boxy{margin:30px 15px 0}.mini-boxy{margin:30px 15px 0;flex-direction:column}}
+</style></head>
+<body>
+<div class="menu"><img src="assets/logo.png" alt="logo"><a class="l" href="piolun.com" style="--c:#144d00;--h:#3dcc00">PIOłUN</a></div>
+<div class="boxy"><h2>o mnie</h2><div>Wszystko znajdziesz w sieci 😉 Dla ułatwienia mój <a href="https://www.youtube.com/channel/UCaDuqsB6vrk7O7ZR-QVhilg" target="_blank" rel="noopener">Youtube</a>, <a href="https://piolun.bandcamp.com" target="_blank" rel="noopener">BandCamp</a> oraz strona  zespołu, w który jestem obecnie zaangażowany <a href="https://oyate.pl" target="_blank" rel="noopener">OYATE</a> i kanały zespołów, w których kiedyś się udzielałem <a href="https://www.facebook.com/plebaniaofficial" target="_blank" rel="noopener">PLEBANIA</a>, <a href="https://www.youtube.com/user/garskanal" target="_blank" rel="noopener">GARS</a></div></div>
+<div class="mini-boxy"><div class="mini-box"><h3>Dyskografia</h3>Wysłuchaj moich utworów!<br><a class="dl" href="http://ftp.zps.nazwa.pl/media/" target="_blank" rel="noopener">FTP</a></div><div class="mini-box"><h3>filmografia</h3>Tu są moje filmy! (OYATE)<br><a class="dl" href="https://www.youtube.com/@oyatemusicband" target="_blank" rel="noopener">YOUTUBE</a></div><div class="mini-box"><h3>filmografia</h3>Tu są moje filmy! (MOJE KONTO)<br><a class="dl" href="https://www.youtube.com/@piolundotcom" target="_blank" rel="noopener">youtube</a></div></div>
+<div class="boxy"><h2>KONTAKT</h2><div>email: email: email@piolun.com<br><a href="https://www.facebook.com/piolundotcom" target="_blank" rel="noopener">FaceBook</a></div></div>
+<div class="boxy"><h2>Linki</h2><div><a href="https://oyate.pl" target="_blank" rel="noopener">OYATE</a>, <a href="https://www.youtube.com/user/garskanal" target="_blank" rel="noopener">GARS</a>, <a href="https://myspace.com/senextheband" target="_blank" rel="noopener">SENEX</a>, <a href="https://www.facebook.com/warsztatyaktywnoscitworczej" target="_blank" rel="noopener">WAT</a>, <a href="https://www.facebook.com/plebaniaofficial/" target="_blank" rel="noopener">PLEBANIA</a>, <a href="https://piolun.bandcamp.com" target="_blank" rel="noopener">BANDCAMP</a></div></div>
+<div class="wm">Made with <a href="https://github.com/piolunson/websitebuild" target="_blank" rel="noopener">github.com/piolunson/websitebuild</a></div>
+</body></html>
